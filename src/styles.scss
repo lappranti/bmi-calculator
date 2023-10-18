@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body,
+*:not(mat-icon) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  line-height: normal;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+@font-face {
+  font-family: "Inter SemiBold";
+  src: url("./assets/font/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  src: url("./assets/font/Inter-Regular.ttf") format("truetype");
+}
+
+.heading-xl {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 110%; /* 70.4px */
+  letter-spacing: -3.2px;
+}
+
+.heading-l {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 110%; /* 52.8px */
+  letter-spacing: -2.4px;
+}
+
+.heading-m {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+}
+
+.heading-s {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.body-m {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.body-mb {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.body-s {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
