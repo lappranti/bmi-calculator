@@ -483,7 +483,7 @@
           fxLayout="column"
           fxLayoutAlign.lt-md="center center"
         >
-          <h2 class="title2" style="text-align: center">
+          <h2 class="title2" [ngStyle.lt-sm]="{ 'text-align': 'center' }">
             {{ "limitations-of-BMI" | translate }}
           </h2>
           <div class="description" [ngStyle.lt-md]="{ 'text-align': 'center' }">
